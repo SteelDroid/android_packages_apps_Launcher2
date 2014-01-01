@@ -52,7 +52,6 @@ def print_intent(out, id, i, cell):
         cgi.escape(cell, True)
       ))
 
-
 def print_icon(out, id, i, cell):
   if cell:
     icon_fn = "icon_%d.png" % id
